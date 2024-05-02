@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+  <head>
+  <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    Queer Arts in CN | Reuse the Collection
+  </title>
+
+  <link rel='canonical' href='http://localhost:4000/queerartcn/reuse/'/>
+  <link rel='icon' type='image/png' href="http://localhost:4000/queerartcn/img/logo.png">
+  <link rel='stylesheet' href="http://localhost:4000/queerartcn/assets/styles.css"/>
+
+  <script type='text/javascript' src="http://localhost:4000/queerartcn/assets/jquery-3.2.1.min.js"></script>
+</head>
+
+
+  <body>
+    <time datetime='2024-05-02 00:56'></time>
+    <nav id='wax-header' class='navbar navbar-expand-lg navbar-light'>
+ <div class='wax-inline-container'>
+    <a class='navbar-brand' href="http://localhost:4000/queerartcn/" title='Home'>
+      Queer Arts in CN
+    </a>
+
+    <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#wax-header-navbar' aria-controls='wax-header-navbar' aria-expanded='false' aria-label='navigation'>
+      <span class='navbar-toggler-icon'></span>
+    </button>
+
+    <div class='collapse navbar-collapse' id="wax-header-navbar">
+      <ul class='nav navbar-nav ml-auto justify-content-end'>
+        
+          
+            <li class='nav-item dropdown'>
+              <a class='nav-link dropdown-toggle' href='#' id='wax-about-dropdown' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                About
+              </a>
+              <div class='dropdown-menu' aria-labelledby='wax-about-dropdown'>
+                
+                  <a class='dropdown-item' href='http://localhost:4000/queerartcn/about/'>Background</a>
+                
+                  <a class='dropdown-item' href='http://localhost:4000/queerartcn/lr/'>Literature Review</a>
+                
+                  <a class='dropdown-item' href='http://localhost:4000/queerartcn/credits/'>Bibliography</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class='nav-item dropdown'>
+              <a class='nav-link dropdown-toggle' href='#' id='wax-research-dropdown' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                Research
+              </a>
+              <div class='dropdown-menu' aria-labelledby='wax-research-dropdown'>
+                
+                  <a class='dropdown-item' href='http://localhost:4000/queerartcn/exhibits/a/'>Queer Arts in China</a>
+                
+                  <a class='dropdown-item' href='http://localhost:4000/queerartcn/exhibits/b/'>Queer Artists in China</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li class='nav-item'>
+              <a class='nav-link' href='http://localhost:4000/queerartcn/collection/'>Browse</a>
+            </li>
+          
+        
+          
+            <li class='nav-item'>
+              <a class='nav-link' href='http://localhost:4000/queerartcn/search/'>Search</a>
+            </li>
+          
+        
+          
+            <li class='nav-item'>
+              <a class='nav-link' href='http://localhost:4000/queerartcn/reuse/'>Reuse</a>
+            </li>
+          
+        
+      </ul>
+    </div>
+  </div>
+ </nav>
+
+
+    
+
+    <div id='wax-main'>
+      <div id='wax-content' class='wax-inline-container'>
+        
+  <h2 class='page-title'>Reuse the Collection</h2>
+
+
+<p>This page is supported by <strong>Wax</strong>. Wax is inspired by <a href="https://journal.code4lib.org/articles/13427">FAIR data principles</a>, and as such strives to make its collections findable, accessible, interoperable and reusable.</p>
+
+<p>The demo site comes with a specific <code class="language-plaintext highlighter-rouge">_include</code> called <code class="language-plaintext highlighter-rouge">interactive_metadata_table</code> to help you make pages like this one complete with interactive <a href="https://datatables.net/">DataTables</a> and downloadable CSVs of collection metadata.</p>
+
+<link rel="stylesheet" type="text/css" href="http://localhost:4000/queerartcn/assets/datatables/datatables.css" />
+
+<script type="text/javascript" src="http://localhost:4000/queerartcn/assets/datatables/datatables.min.js"></script>
+
+<table id="qatar-datatable" class="datatable display"></table>
+<script>
+  $(document).ready(function () {
+    $('#qatar-datatable').DataTable({
+      data: [{"pid":"obj1","label":"Papercut of a Gay Couple","object_type":"papercut","name":"Sewn","artist":"西亚蝶/Xiyadie","location":"陕西/Shaanxi","exhibit_location":"Beijing LGBT Center","_date":"1999","source":"https://www.xiyadie.com/info","discription":"In Sewn, Xiyadie’s blood threads into flames as he sits atop a sword, holding in torment and agony as he looks with affection at the photograph of his former lover.","order":"0","layout":"qatar_item","collection":"qatar","thumbnail":"/img/derivatives/iiif/images/obj1/full/250,/0/default.jpg","full":"/img/derivatives/iiif/images/obj1/full/1140,/0/default.jpg","manifest":"/img/derivatives/iiif/obj1/manifest.json"},{"pid":"obj2","label":"Painting of a Penis","object_type":"painting","name":"Dingding","artist":"魏一目/Wei Yimu","location":"广东/Guangdong","exhibit_location":"Ergao Dance Production Group","_date":"2020","source":"https://www.weibo.com/handsomegreen?tabtype=feed","discription":"Wei presents an alternative phallic representations of penis from a childlike perspective.","order":"1","layout":"qatar_item","collection":"qatar","thumbnail":"/img/derivatives/iiif/images/obj2/full/250,/0/default.jpg","full":"/img/derivatives/iiif/images/obj2/full/1140,/0/default.jpg","manifest":"/img/derivatives/iiif/obj2/manifest.json"},{"pid":"obj3","label":"Poster of a Lesbian Couple","object_type":"printing","name":"Commemorate","artist":"石头/Shi Tou","location":"贵州/Guizhou","exhibit_location":"Beijing Sister","_date":"2006","source":"https://www.theartnewspaper.com/2023/11/07/the-bumpy-road-to-acceptance-chinas-lgbtq+-artists-is-explored-in-a-new-anthology","discription":"By using the format of the Chinese commercial calendar poster in Shanghai in the 1930s, Shi Tou convey the relationship between females and elaborate on the status quo of human society.","order":"2","layout":"qatar_item","collection":"qatar","thumbnail":"/img/derivatives/iiif/images/obj3/full/250,/0/default.jpg","full":"/img/derivatives/iiif/images/obj3/full/1140,/0/default.jpg","manifest":"/img/derivatives/iiif/obj3/manifest.json"},{"pid":"obj4","label":"Photo of Male Bodies","object_type":"photograph","name":"September","artist":"任航/Ren Hang","location":"吉林/Jilin","exhibit_location":"Beijing, Self Published","_date":"2016","source":"https://josefchladek.com/book/ren_hang_-_september","discription":"This is a one-year shooting plan. Ren Hang plans to publish one photo book every month. All about survival and love.","order":"3","layout":"qatar_item","collection":"qatar","thumbnail":"/img/derivatives/iiif/images/obj4/full/250,/0/default.jpg","full":"/img/derivatives/iiif/images/obj4/full/1140,/0/default.jpg","manifest":"/img/derivatives/iiif/obj4/manifest.json"},{"pid":"obj5","label":"Installation with Red Capsule","object_type":"installation ","name":"Media","artist":"曾不容/Zeng Burong","location":"北京/Beijing","exhibit_location":"Beijing One-way Street Space","_date":"2016","source":"https://burongz.wixsite.com/burong/medea-2016","discription":"Exploring neuroqueerness, Zeng demonstrates this installation piece designed by Burong with tubes, water pumps, red paint and sculpture as a backdrop for the theatre adaptation of Medea.\n","order":"4","layout":"qatar_item","collection":"qatar","thumbnail":"/img/derivatives/iiif/images/obj5/full/250,/0/default.jpg","full":"/img/derivatives/iiif/images/obj5/full/1140,/0/default.jpg","manifest":"/img/derivatives/iiif/obj5/manifest.json"}],
+      columns: [{
+      "title": "pid",
+      "data": "pid"
+    }, {
+      "title": "label",
+      "data": "label"
+    }, {
+      "title": "object_type",
+      "data": "object_type"
+    }, {
+      "title": "name",
+      "data": "name"
+    }, {
+      "title": "artist",
+      "data": "artist"
+    }, {
+      "title": "location",
+      "data": "location"
+    }, {
+      "title": "exhibit_location",
+      "data": "exhibit_location"
+    }, {
+      "title": "_date",
+      "data": "_date"
+    }, {
+      "title": "source",
+      "data": "source"
+    }, {
+      "title": "discription",
+      "data": "discription"
+    }, {
+      "title": "order",
+      "data": "order"
+    }, {
+      "title": "layout",
+      "data": "layout"
+    }, {
+      "title": "collection",
+      "data": "collection"
+    }, {
+      "title": "thumbnail",
+      "data": "thumbnail"
+    }, {
+      "title": "full",
+      "data": "full"
+    }, {
+      "title": "manifest",
+      "data": "manifest"
+    }],
+      scrollY: 600,
+      scrollX: 600,
+      paging: false,
+      fixedHeader: false,
+      searching: false,
+      ordering:  false,
+      dom: 'Bfrtip',
+      buttons: [
+        'csvHtml5'
+      ]
+    });
+  });
+</script>
+
+
+
+      </div>
+    </div>
+
+    <footer id='wax-footer' class='page-footer container-fluid'>
+  <div class='wax-inline-container'>
+    <div class='row'>
+      <div class='col'>
+        <p class='footer-title'>Queer Arts in CN</p>
+        <p class='footer-description'>yt2830@nyu.edu | New York University</p>
+        <p class='footer-copyright'>
+          
+          &copy; Project by Fay, 2024<br>
+          
+          Built with <a href='https://github.com/minicomp/wax/'>Minicomp/gettingcrazy</a>
+        </p>
+      </div>
+      <div class='col'>
+        <p class='footer-title'>Links</p>
+        <p class='footer-links'>
+          
+            <a href='http://nvxing.hosting.nyu.edu/femisking/'>
+              Other Project: Femisking
+            </a>
+           / 
+          
+            <a href='http://localhost:4000/queerartcn/credits'>
+              Bibliography
+            </a>
+          
+          
+        </p>
+        <p class='footer-logos'>
+          
+          
+          <a href="http://localhost:4000/queerartcn/" aria-label="Logo link to resource">
+            <img src='http://localhost:4000/queerartcn/img/logo.png' alt="logo"/>
+          </a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <script type='text/javascript' async defer src='http://localhost:4000/queerartcn/assets/bootstrap/bootstrap.min.js'></script>
+    <script type='text/javascript' async defer src='http://localhost:4000/queerartcn/assets/popper.min.js'></script>
+  </body>
+</html>
