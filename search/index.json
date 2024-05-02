@@ -1,0 +1,117 @@
+---
+layout: none
+---
+[
+  {
+    "pid": "obj1",
+    "label": "Papercut of a Gay Couple",
+    "name": "Sewn",
+    "artist": "西亚蝶/Xiyadie",
+    "location": "陕西/Shaanxi",
+    "exhibit_location": "Beijing LGBT Center",
+    "_date": "1999",
+    "collection": "qatar",
+    "thumbnail": "/img/derivatives/iiif/images/obj1/full/250,/0/default.jpg",
+    "content": " ",
+    "permalink": "/qatar/obj1",
+    "lunr_id": 0
+  },
+  {
+    "pid": "obj2",
+    "label": "Painting of a Penis",
+    "name": "Dingding",
+    "artist": "魏一目/Wei Yimu",
+    "location": "广东/Guangdong",
+    "exhibit_location": "Ergao Dance Production Group",
+    "_date": "2020",
+    "collection": "qatar",
+    "thumbnail": "/img/derivatives/iiif/images/obj2/full/250,/0/default.jpg",
+    "content": " ",
+    "permalink": "/qatar/obj2",
+    "lunr_id": 1
+  },
+  {
+    "pid": "obj3",
+    "label": "Poster of a Lesbian Couple",
+    "name": "Commemorate",
+    "artist": "石头/Shi Tou",
+    "location": "贵州/Guizhou",
+    "exhibit_location": "Beijing Sister",
+    "_date": "2006",
+    "collection": "qatar",
+    "thumbnail": "/img/derivatives/iiif/images/obj3/full/250,/0/default.jpg",
+    "content": " ",
+    "permalink": "/qatar/obj3",
+    "lunr_id": 2
+  },
+  {
+    "pid": "obj4",
+    "label": "Photo of Male Bodies",
+    "name": "September",
+    "artist": "任航/Ren Hang",
+    "location": "吉林/Jilin",
+    "exhibit_location": "Beijing, Self Published",
+    "_date": "2016",
+    "collection": "qatar",
+    "thumbnail": "/img/derivatives/iiif/images/obj4/full/250,/0/default.jpg",
+    "content": " ",
+    "permalink": "/qatar/obj4",
+    "lunr_id": 3
+  },
+  {
+    "pid": "obj5",
+    "label": "Installation with Red Capsule",
+    "name": "Media",
+    "artist": "曾不容/Zeng Burong",
+    "location": "北京/Beijing",
+    "exhibit_location": "Beijing One-way Street Space",
+    "_date": "2016",
+    "collection": "qatar",
+    "thumbnail": "/img/derivatives/iiif/images/obj5/full/250,/0/default.jpg",
+    "content": " ",
+    "permalink": "/qatar/obj5",
+    "lunr_id": 4
+  },
+  {
+    "pid": "obj6",
+    "label": "Painting of a Male Body in Mirrow",
+    "name": "Mirror Image",
+    "artist": "广也/Guang Ye",
+    "location": "安徽/Anhui",
+    "exhibit_location": "Shanghai Polar Bear Gallery",
+    "_date": "2019",
+    "collection": "qatar",
+    "thumbnail": "/img/derivatives/iiif/images/obj6/full/250,/0/default.jpg",
+    "content": " ",
+    "permalink": "/qatar/obj6",
+    "lunr_id": 5
+  },
+  {
+    "pid": "obj7",
+    "label": "Painting of a Gay Couple in Water",
+    "name": "Gay",
+    "artist": "广也/Guang Ye",
+    "location": "安徽/Anhui",
+    "exhibit_location": "Beijing Art.Des",
+    "_date": "2019",
+    "collection": "qatar",
+    "thumbnail": "/img/derivatives/iiif/images/obj7/full/250,/0/default.jpg",
+    "content": " ",
+    "permalink": "/qatar/obj7",
+    "lunr_id": 6
+  },
+  {
+    "pid": "obj8",
+    "label": "Papercut of a Gay Couple",
+    "name": "Paper Grooms",
+    "artist": "杨绎亮/Yang Yiliang",
+    "location": "湖南/Hunan",
+    "exhibit_location": "Shanghai Pride Art",
+    "_date": "2020",
+    "collection": "qatar",
+    "thumbnail": "/img/derivatives/iiif/images/obj8/full/250,/0/default.jpg",
+    "content": " ",
+    "permalink": "/qatar/obj8",
+    "lunr_id": 7
+  }
+]
