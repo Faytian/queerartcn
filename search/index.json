@@ -1,0 +1,75 @@
+---
+layout: none
+---
+[
+  {
+    "pid": "obj1",
+    "label": "Papercut of Gay a Couple",
+    "name": "Sewn",
+    "artist": "西亚蝶/Xiyadie",
+    "location": "陕西/Shaanxi",
+    "exhibit_location": "Beijing LGBT Center",
+    "_date": "1999",
+    "collection": "qatar",
+    "thumbnail": "/img/derivatives/iiif/images/obj1/full/250,/0/default.jpg",
+    "content": " ",
+    "permalink": "/qatar/obj1",
+    "lunr_id": 0
+  },
+  {
+    "pid": "obj2",
+    "label": "Painting of Penis",
+    "name": "Dingding",
+    "artist": "魏一目/Wei Yimu",
+    "location": "广东/Guangdong",
+    "exhibit_location": "Ergao Dance Production Group",
+    "_date": "2020",
+    "collection": "qatar",
+    "thumbnail": "/img/derivatives/iiif/images/obj2/full/250,/0/default.jpg",
+    "content": " ",
+    "permalink": "/qatar/obj2",
+    "lunr_id": 1
+  },
+  {
+    "pid": "obj3",
+    "label": "Poster of Lesbian Couple",
+    "name": "Commemorate",
+    "artist": "石头/Shi Tou",
+    "location": "贵州/Guizhou",
+    "exhibit_location": "Beijing Sister",
+    "_date": "2006",
+    "collection": "qatar",
+    "thumbnail": "/img/derivatives/iiif/images/obj3/full/250,/0/default.jpg",
+    "content": " ",
+    "permalink": "/qatar/obj3",
+    "lunr_id": 2
+  },
+  {
+    "pid": "obj4",
+    "label": "Photo of Male Bodies",
+    "name": "September",
+    "artist": "任航/Ren Hang",
+    "location": "吉林/Jilin",
+    "exhibit_location": "Beijing, Self Published",
+    "_date": "2016",
+    "collection": "qatar",
+    "thumbnail": "/img/derivatives/iiif/images/obj4/full/250,/0/default.jpg",
+    "content": " ",
+    "permalink": "/qatar/obj4",
+    "lunr_id": 3
+  },
+  {
+    "pid": "obj5",
+    "label": "Installation with Red Capsule",
+    "name": "Media",
+    "artist": "曾不容/Zeng Burong",
+    "location": "北京/Beijing",
+    "exhibit_location": "Beijing One-way Street Space",
+    "_date": "2016",
+    "collection": "qatar",
+    "thumbnail": "/img/derivatives/iiif/images/obj5/full/250,/0/default.jpg",
+    "content": " ",
+    "permalink": "/qatar/obj5",
+    "lunr_id": 4
+  }
+]
